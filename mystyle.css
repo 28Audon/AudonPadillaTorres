@@ -7,6 +7,9 @@ body {
     margin-left: 20px;
     text-align: margin-right;
   }
+  h3 {
+    color:rgb(255, 255, 255);
+  }
   
   p {
     border: 2px solid rgb(9, 222, 250);
