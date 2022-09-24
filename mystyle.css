@@ -11,6 +11,7 @@ body {
   
   p {
     border: 2px solid rgb(9, 222, 250);
+    text-align: left;
   }
   div{
     text-align: center;
