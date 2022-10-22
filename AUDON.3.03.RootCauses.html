@@ -46,10 +46,75 @@
     <!-- To begin to understand how the following "grid" works, check out this link. This is the code we have below
     https://getbootstrap.com/docs/5.2/layout/grid/#equal-width  -->
     <!--row 1-->
-      <div class="row">
-        <div class="col-9">.col-9</div>
-        <div class="col-4">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
-        <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+        <div class="row">
+          <div class="col p-3 bg-info border border-info border-start-50 rounded-start">
+            <!---->
+            <h2>Root cause #1:</h2>
+              <p>
+                Text
+              </p>
+              <!---->
+
+              <div class="col p-3 bg-info border border-info border-start-50 rounded-start">
+                <!---->
+                <h2>Evidence:</h2>
+                <p>
+                  Text
+                </p>
+                <!---->
+
+                <div class="col p-3 bg-info border border-info border-start-50 rounded-start">
+                  <!---->
+                  <h2>Evidence:</h2>
+                  <p>
+                    Text
+                  </p>
+                  <!---->
+                </div>
+
+              </div>
+
+          </div>
+          <div class="col p-3 bg-info border border-info border-start-50 rounded-end">
+            <!---->
+            <h2>Implications:</h2>
+              <p>
+                Text
+              </p>
+            <!---->
+
+          </div>
+          <div class="row">
+            <div class="col p-3 bg-info border border-info border-start-50 rounded-start">
+              <h3>
+                Impact Evidence:
+              </h3>
+              <p>
+                Text
+              </p>
+              <!---->
+    
+            </div>
+            <div class="col p-3 bg-info border border-info border-start-50">
+            <h3>
+              Perspective Evidence:
+            </h3>
+            <p>
+              Text
+            </p>
+            <!---->
+          
+          </div>
+          <div class="col p-3 bg-info border border-info border-start-50 rounded-end">
+            <h3>
+              Impact Evidence:
+            </h3>
+            <p>
+              Text
+            </p>
+            <!---->
+          </div>
+        </div>
       </div>
     </div>
     <!-- Add the bootstrap script down here -->
