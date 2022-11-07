@@ -74,10 +74,7 @@
             The CECS brings together researchers, managers, and practitioners from across the state, who all work to improve the health and resilience of our communities and the ecosystems we depend on.
           </li>
           <li>
-            Source: <a href="https://cecs.ess.uci.edu/fire-progression/">Fire Progression Visualization Tool | Center for Ecosystem Climate Solutions</a>
-          </li>
-          <li>
-            Source: <a href="https://cecs.ess.uci.edu/carbon-vulnerability/">Carbon Vulnerability | Center for Ecosystem Climate Solutions</a>
+            Source: <a href="https://california-ecosystem-climate.solutions/">Center for Ecosystem Climate Solutions</a>
           </li>
         </ul>
       </div>
@@ -118,8 +115,19 @@
           Explanation:
         </h2>
         <ul>
+          <li> 
+            The CECS Fire Behavior dataset captures daily fire spread for large, 
+            multi-day fires in California from 2012-2021 using active fire detections from the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Suomi-National Polar-Orbiting Partnership (S-NPP) satellite. 
+            This standardized database includes both daily fire spread rate and fire radiative power, 
+            the radiative energy emitted from fire. 
+            It will be regularly updated to include more recent fire years.
+          </li>
           <li>
-            Text
+            Carbon Vulnerability projections are based on random forest models, 
+            using four seasons of temperature and precipitation as input. 
+            The model is trained to fit the spatial distribution of aboveground carbon across California, 
+            provided by the California Air Resources Board. 
+            Data and code are also available for download in a public repository.
           </li>
         </ul>
       </div>
@@ -139,8 +147,17 @@
           Explanation:
         </h2>
         <ul>
+          <li>  
+            This dataset is set up to match VIIRS fire detections with fires recorded in CAL FIRE's Fire and 
+            Resource Assessment Program (FRAP) database for coherence between both.
+            Only fires active for more than one day are included because measuring daily fire spread using VIIRS requires comparisons of fire perimeters from multiple days of detections.
+          </li>
           <li>
-            Text
+            Carbon Vulnerability projections only indicate climate-driven changes to aboveground live carbon stocks and do not account for changes in land management or other factors like CO2 fertilization. 
+            Projections also do not include dead or belowground carbon pools.
+            The northern coastal forests and 
+            low/mid-elevation portions of the Sierra Nevada are most likely to lose carbon to the atmosphere over this century, 
+            in either moderate or extreme warming scenarios.
           </li>
         </ul>
       </div>
@@ -160,40 +177,27 @@
           Explanation:
         </h2>
         <ul>
+          <li>  
+            The visualization tool only depicts 34 of the largest fires in the dataset.
+            VIIRS provides global measurements for the energy radiated from the Earth's surface every day. 
+            Hotspots in this data, where the energy radiated from the Earth is high, 
+            can be used to identify fires. 
+            By drawing a perimeter around detections of the same fire as it grows from day to day, 
+            researchers can measure the distance between daily perimeters in order to calculate the fire's daily spread rate.
+          </li>
           <li>
-            Text
+            Because Carbon Vulnerability projections method relies on comparing the VIIRS fire detections from day to day to measure rate of spread, 
+            this dataset cannot assess a fire's rate of spread. 
+            Finally, 
+            the spread of more scattered fires, 
+            such as grass fires in desert landscapes where fires occur in patchy, 
+            less uniform patterns, 
+            are difficult to measure using this method.
           </li>
         </ul>
       </div>
     </div>
   </div>
-<!--
-  <ul>
-          <li>
-            CECS defines their mission as to develop Science-based solutions for land management of California.
-            The CECS defines the impacts of climate change as being on people's health and the resilience of California communities and the ecosystems.
-            They define the effects of climate change on California as a major problem that affects the population of California and the environment.
-            The Center for Ecosystem Climate Solutions (CECS) is focused on developing science-based tools that California needs to effectively manage its natural lands for climate change.
-          </li>
-          <li>
-            Who is involved (who works here, who makes decisions, who funds them etc...)
-            The CECS brings together researchers, managers, and practitioners from across the state, who all work to improve the health and resilience of our communities and the ecosystems we depend on.
-          </li>
-          <li>
-            Contains maps that track wildfires and Carbon Vulnerability.
-          </li>
-          <li>
-            The website has maps that track Carbon Vulnerability and has a fire Progression Visualization Tool.
-          </li>
-          <li>
-            The maps are limited to only Carbon Vulnerability and a fire Progression Visualization Tool.
-          </li>
-          <li>
-            Technology could be used to improve the maps to have other trackers and have them be one map rather than separate maps. 
-          </li>
-        </ul>
-
--->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
