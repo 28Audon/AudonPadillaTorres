@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 h1 {
     color:#0000FF;
@@ -7,7 +7,7 @@ h1 {
     text-align: margin-right;
 }
 h4 {
-    color:rgb(0, 0, 0)
+    color:#cad1e8
 }
 li {
     color:#00FF00
