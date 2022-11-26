@@ -7,6 +7,25 @@ link {
   margin-left: 20px;
   text-align:left-align;
 }
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 
 h2 {
   color: rgb(0, 0, 0);
