@@ -8,6 +8,12 @@ h1 {
   text-align: margin-right;
 }
 
+h2 {
+  color: rgb(0, 128, 11);
+  margin-left: 20px;
+  text-align: margin-right;
+}
+
 p {
   border: 2px solid rgb(0, 0, 0);
   text-align:left-align;
