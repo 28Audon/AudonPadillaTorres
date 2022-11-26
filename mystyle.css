@@ -23,24 +23,24 @@ a:active {
 }
 
 h2 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin-left: 20px;
   text-align:left-align;
 }
 
 ul {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin-left: 20px;
   text-align:left-align; 
 }
 ol {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin-left: 20px;
   text-align:left-align;
 }
 
 p {
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   text-align:left-align;
 }
 
