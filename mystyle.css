@@ -5,13 +5,13 @@ body {
 h1 {
   color: rgb(0, 128, 11);
   margin-left: 20px;
-  text-align: margin-right;
+  text-align:left-align;
 }
 
 h2 {
   color: rgb(255, 255, 255);
   margin-left: 20px;
-  text-align: margin-right;
+  text-align:left-align;
 }
 
 p {
