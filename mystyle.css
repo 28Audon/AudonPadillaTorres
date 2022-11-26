@@ -2,11 +2,6 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-link {
-  color: rgb(0, 0, 0);
-  margin-left: 20px;
-  text-align:left-align;
-}
 /* unvisited link */
 a:link {
   color: red;
@@ -24,7 +19,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: rgb(0, 0, 255);
 }
 
 h2 {
