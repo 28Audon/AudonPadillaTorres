@@ -4,12 +4,12 @@ body {
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: rgb(255, 255, 0);
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: rgb(0, 128, 0);
 }
 
 /* mouse over link */
