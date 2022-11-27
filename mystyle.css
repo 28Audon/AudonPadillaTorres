@@ -4,7 +4,7 @@ body {
 
 /* unvisited link */
 a:link {
-  color: rgb(128, 0, 128);
+  color: rgb(0,191,255);
 }
 
 /* visited link */
